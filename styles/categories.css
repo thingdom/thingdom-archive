@@ -1,0 +1,20 @@
+nav.categories a{color:#888;display:block;padding:.2em .8em;text-decoration:none;}
+nav.categories a:hover{background-color:#efefef;color:#00a7fa;text-decoration:none}
+nav.categories a.selected{background-color:#08c;color:#fff;font-weight:normal}
+nav.categories a .count{font-size:80%;float:right;margin-top:.25em;}
+nav.categories a .count:before{content:'x';font-size:75%;padding-right:2px}
+.things{white-space:nowrap;overflow:hidden}
+.things.expanded{white-space:normal}
+.things{padding-bottom:1em}
+.things a.show-all{color:#08c}
+.things a.show-all:hover{color:#00a7fa;text-decoration:none}
+.things h2.category{float:left;margin-right:.625em}
+.things a.show-all{display:block;font-weight:bold;position:relative;top:.66em}
+.things.haswants .has,.things.haswants .wants,.things.haswants .wishes{display:inline}
+.things.haswants .has h2,.things.haswants .wants h2,.things.haswants .wishes h2{display:none}
+.things.haswants .has h2 + a.show-all,.things.haswants .wants h2 + a.show-all,.things.haswants .wishes h2 + a.show-all{display:none}
+.things.haswants.expanded h2.category{display:none}
+.things.haswants.expanded h2.category + a.show-all{display:none}
+.things.haswants.expanded .has,.things.haswants.expanded .wants,.things.haswants.expanded .wishes{display:block}
+.things.haswants.expanded .has h2,.things.haswants.expanded .wants h2,.things.haswants.expanded .wishes h2{display:block;float:left;margin-right:.625em}
+.things.haswants.expanded .has h2 + a.show-all,.things.haswants.expanded .wants h2 + a.show-all,.things.haswants.expanded .wishes h2 + a.show-all{display:block}

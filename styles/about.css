@@ -1,0 +1,21 @@
+hr{background:#ddd;color:#ddd;float:none;width:100%;height:1px;margin:0 0 1.45em;border:none;}
+hr .space{background:#fff;color:#fff;visibility:hidden}
+article{float:left;margin-right:10px;width:750px;}
+* html article{display:inline;overflow-x:hidden}
+section:first-child em{background-color:#ffa}
+section:first-child form.search{background-color:#ffa;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;padding:1.5em;padding-top:1em;margin-right:2em;margin-bottom:1.5em}
+.knight{padding:1em 0 1.5em;margin-bottom:.5em;border-bottom:1px solid #f0f0f0;}
+.knight .profile{float:left;margin-right:10px;width:190px;}
+* html .knight .profile{display:inline;overflow-x:hidden}
+.knight .profile a.profile-image{display:block;margin:0;padding:0;border-width:3px;}
+.knight .profile a.profile-image div.container{width:auto;height:auto;line-height:0;}
+.knight .profile a.profile-image div.container img{position:static}
+.knight .profile .stats{text-align:center;}
+.knight .profile .stats a{display:inline-block;width:60px;margin:0 1px;color:#424242;text-decoration:none;}
+.knight .profile .stats a:hover{background-color:#efefef}
+.knight .profile .stats a .count{display:block;font-size:120%}
+.knight .blurb{float:left;margin-right:0;width:550px;}
+* html .knight .blurb{display:inline;overflow-x:hidden}
+.knight .blurb p{padding-left:.5em}
+.knight .blurb p:first-child{margin-top:-.3em}
+.knight .blurb a.name{color:#424242}

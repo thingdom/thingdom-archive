@@ -1,0 +1,34 @@
+ul.stories,ul.comments{list-style-type:none;margin:0;overflow:hidden;width:100%;}
+ul.stories li.comment,ul.comments li.comment,ul.stories li.story,ul.comments li.story{border-bottom:1px solid #f0f0f0;margin:2px 0;min-height:62px;overflow:hidden;padding:12px 0 12px 74px;position:relative;}
+ul.stories li.comment:last-child,ul.comments li.comment:last-child,ul.stories li.story:last-child,ul.comments li.story:last-child{border-bottom:none}
+ul.stories li.comment .image a.user,ul.comments li.comment .image a.user,ul.stories li.story .image a.user,ul.comments li.story .image a.user{position:absolute;left:0;border-width:2px;padding:4px}
+ul.stories li.comment .author,ul.comments li.comment .author,ul.stories li.story .author,ul.comments li.story .author{margin:0;margin-top:-.5em;}
+ul.stories li.comment .author a,ul.comments li.comment .author a,ul.stories li.story .author a,ul.comments li.story .author a{color:#999;font-size:72%;}
+ul.stories li.comment .author a:hover,ul.comments li.comment .author a:hover,ul.stories li.story .author a:hover,ul.comments li.story .author a:hover{color:#08f}
+ul.stories li.comment .message,ul.comments li.comment .message,ul.stories li.story .message,ul.comments li.story .message{color:#555;font-size:90%;margin:1em 0;padding:0;}
+ul.stories li.comment .message a.link span.at,ul.comments li.comment .message a.link span.at,ul.stories li.story .message a.link span.at,ul.comments li.story .message a.link span.at{display:inline-block;opacity:.5;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=50)}
+ul.stories li.comment .message a.link:hover,ul.comments li.comment .message a.link:hover,ul.stories li.story .message a.link:hover,ul.comments li.story .message a.link:hover{text-decoration:none;}
+ul.stories li.comment .message a.link:hover span.at-text,ul.comments li.comment .message a.link:hover span.at-text,ul.stories li.story .message a.link:hover span.at-text,ul.comments li.story .message a.link:hover span.at-text{text-decoration:underline}
+ul.stories li.comment .meta,ul.comments li.comment .meta,ul.stories li.story .meta,ul.comments li.story .meta{bottom:6px;font-size:68%;position:absolute;right:0;}
+ul.stories li.comment .meta a,ul.comments li.comment .meta a,ul.stories li.story .meta a,ul.comments li.story .meta a{color:#08c;}
+ul.stories li.comment .meta a.timestamp,ul.comments li.comment .meta a.timestamp,ul.stories li.story .meta a.timestamp,ul.comments li.story .meta a.timestamp{color:#aaa}
+ul.stories li.comment .meta a strong,ul.comments li.comment .meta a strong,ul.stories li.story .meta a strong,ul.comments li.story .meta a strong{background-color:#ffa;padding:0 .25em}
+ul.stories li.comment .close-button,ul.comments li.comment .close-button,ul.stories li.story .close-button,ul.comments li.story .close-button{display:none;background-image:url("../images/close-button-sprite-15x60.png");cursor:pointer;position:absolute;right:0;top:12px;width:15px;height:15px;}
+ul.stories li.comment .close-button:hover,ul.comments li.comment .close-button:hover,ul.stories li.story .close-button:hover,ul.comments li.story .close-button:hover{background-position:left -15px}
+ul.stories li.comment .close-button:active,ul.comments li.comment .close-button:active,ul.stories li.story .close-button:active,ul.comments li.story .close-button:active{background-position:left -30px}
+ul.stories li.comment:hover .close-button,ul.comments li.comment:hover .close-button,ul.stories li.story:hover .close-button,ul.comments li.story:hover .close-button{display:block}
+.touch ul.stories li .close-button,.touch ul.comments li .close-button{display:block}
+ul.comments li.comment .message{margin:0;margin-bottom:.5em}
+ul.comments li{padding:15px 0;}
+ul.comments li input.comment{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:100%}
+ul.comments li input[type="submit"]{display:none}
+ul.comments li div.info{font-size:80%;color:#aaa;margin:.5em;margin-right:0;text-align:center}
+ul.stories li .message{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ul.stories li.story-with-description .message{margin-top:-.25em;margin-bottom:.5em}
+ul.stories li.story-with-description blockquote{margin-bottom:1em;border-left:4px solid #f0f0f0;padding-left:.5em;font-size:90%;font-style:italic;color:#888;}
+ul.stories li.story-with-description blockquote a{color:#6cf}
+.page-links{font-weight:bold;border-top:1px solid #f0f0f0;padding-top:.5em;}
+.page-links .older{float:right}
+.page-links.more-container{border-top:none;padding-top:0}
+.page-links .more{display:block;padding:.25em 0;text-align:center;background-color:#e0f5ff;border:1px solid #c2ebff;-webkit-border-radius:1px;-moz-border-radius:1px;border-radius:1px;}
+.page-links .more:hover{background-color:#d1f0ff;border-color:#b3e5ff}

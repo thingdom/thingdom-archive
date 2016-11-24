@@ -1,0 +1,52 @@
+hr{background:#ddd;color:#ddd;float:none;width:100%;height:1px;margin:0 0 1.45em;border:none;}
+hr .space{background:#fff;color:#fff;visibility:hidden}
+section{margin:2em 0;}
+section:first-child{margin-top:0}
+.people{display:block}
+.people:after{content:"\0020";display:block;height:0;clear:both;visibility:hidden;overflow:hidden}
+.person{clear:both;display:block;margin:1em 0;padding-top:.5em;border-top:1px solid #f0f0f0}
+.person:first-child{padding-top:0;border-top:none}
+.person .image{float:left;margin-right:15px;}
+.person .image a.user{margin:0}
+.person .info{float:left;width:420px;margin-right:15px;margin-top:.25em}
+.person .buttons{float:left;float:left;margin-right:0;width:190px;margin-top:.25em}
+* html .person .buttons{display:inline;overflow-x:hidden}
+.person .info{font-size:80%;white-space:nowrap}
+.person .info a{color:#424242}
+.person .stats strong{background-color:#ffa;font-weight:normal;padding:0 .25em}
+.person .name{display:block;font-size:125%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.person .actions-container .follow{background:#66b8ff;background:-webkit-gradient(linear,left top,left bottom,from(#66b8ff),to(#269aff));background:-moz-linear-gradient(top,#66b8ff,#269aff);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #66b8ff), color-stop(1, #269aff));background:-webkit-linear-gradient(top, #66b8ff 0%, #269aff 100%);background:-moz-linear-gradient(top, #66b8ff 0%, #269aff 100%);background:-o-linear-gradient(top, #66b8ff 0%, #269aff 100%);background:-ms-linear-gradient(top, #66b8ff 0%, #269aff 100%);background:linear-gradient(top, #66b8ff 0%, #269aff 100%);border-color:#08c;color:#fff;text-shadow:0 -1px #005299;}
+.no-cssgradients .person .actions-container .follow{background:#269aff}
+.no-touch .person .actions-container .follow:hover{background:#00db00;background:-webkit-gradient(linear,left top,left bottom,from(#00db00),to(#00a800));background:-moz-linear-gradient(top,#00db00,#00a800);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #00db00), color-stop(1, #00a800));background:-webkit-linear-gradient(top, #00db00 0%, #00a800 100%);background:-moz-linear-gradient(top, #00db00 0%, #00a800 100%);background:-o-linear-gradient(top, #00db00 0%, #00a800 100%);background:-ms-linear-gradient(top, #00db00 0%, #00a800 100%);background:linear-gradient(top, #00db00 0%, #00a800 100%);border-color:#009600}
+.no-cssgradients .no-touch .person .actions-container .follow:hover{background:#00a800}
+.person .actions-container .unfollow{color:#a33;}
+.no-touch .person .actions-container .unfollow:hover{background:#a33;background:-webkit-gradient(linear,left top,left bottom,from(#a33),to(#a33));background:-moz-linear-gradient(top,#a33,#a33);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #a33), color-stop(1, #a33));background:-webkit-linear-gradient(top, #a33 0%, #a33 100%);background:-moz-linear-gradient(top, #a33 0%, #a33 100%);background:-o-linear-gradient(top, #a33 0%, #a33 100%);background:-ms-linear-gradient(top, #a33 0%, #a33 100%);background:linear-gradient(top, #a33 0%, #a33 100%);border-color:#a33;color:#fff}
+.no-cssgradients .no-touch .person .actions-container .unfollow:hover{background:#a33}
+.person .actions-container .link-button{font-size:125%;padding-left:0;padding-right:0}
+.person .actions-container .follow,.person .actions-container .unfollow{margin:4px 0;}
+.person .actions-container .follow[disabled],.person .actions-container .unfollow[disabled]{background:#f0f0f0;background:-webkit-gradient(linear,left top,left bottom,from(#f0f0f0),to(#f0f0f0));background:-moz-linear-gradient(top,#f0f0f0,#f0f0f0);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #f0f0f0), color-stop(1, #f0f0f0));background:-webkit-linear-gradient(top, #f0f0f0 0%, #f0f0f0 100%);background:-moz-linear-gradient(top, #f0f0f0 0%, #f0f0f0 100%);background:-o-linear-gradient(top, #f0f0f0 0%, #f0f0f0 100%);background:-ms-linear-gradient(top, #f0f0f0 0%, #f0f0f0 100%);background:linear-gradient(top, #f0f0f0 0%, #f0f0f0 100%);border-color:#d8d8d8;color:#bbb;cursor:default;text-shadow:none;}
+.no-cssgradients .person .actions-container .follow[disabled],.no-cssgradients .person .actions-container .unfollow[disabled]{background:#f0f0f0}
+.person .actions-container .follow[disabled]:hover,.person .actions-container .unfollow[disabled]:hover{background:#f0f0f0;background:-webkit-gradient(linear,left top,left bottom,from(#f0f0f0),to(#f0f0f0));background:-moz-linear-gradient(top,#f0f0f0,#f0f0f0);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #f0f0f0), color-stop(1, #f0f0f0));background:-webkit-linear-gradient(top, #f0f0f0 0%, #f0f0f0 100%);background:-moz-linear-gradient(top, #f0f0f0 0%, #f0f0f0 100%);background:-o-linear-gradient(top, #f0f0f0 0%, #f0f0f0 100%);background:-ms-linear-gradient(top, #f0f0f0 0%, #f0f0f0 100%);background:linear-gradient(top, #f0f0f0 0%, #f0f0f0 100%);border-color:#d8d8d8;color:#bbb}
+.no-cssgradients .person .actions-container .follow[disabled]:hover,.no-cssgradients .person .actions-container .unfollow[disabled]:hover{background:#f0f0f0}
+.js.no-touch .person .actions-container .status{display:none}
+.js.no-touch .person .actions-container .unfollow.status-button{background:#0b0;background:-webkit-gradient(linear,left top,left bottom,from(#0b0),to(#0b0));background:-moz-linear-gradient(top,#0b0,#0b0);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #0b0), color-stop(1, #0b0));background:-webkit-linear-gradient(top, #0b0 0%, #0b0 100%);background:-moz-linear-gradient(top, #0b0 0%, #0b0 100%);background:-o-linear-gradient(top, #0b0 0%, #0b0 100%);background:-ms-linear-gradient(top, #0b0 0%, #0b0 100%);background:linear-gradient(top, #0b0 0%, #0b0 100%);border:none;color:#fff;text-shadow:none;}
+.no-cssgradients .js.no-touch .person .actions-container .unfollow.status-button{background:#0b0}
+.js.no-touch .person .actions-container .unfollow.status-button:hover{background:#a33;background:-webkit-gradient(linear,left top,left bottom,from(#a33),to(#a33));background:-moz-linear-gradient(top,#a33,#a33);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #a33), color-stop(1, #a33));background:-webkit-linear-gradient(top, #a33 0%, #a33 100%);background:-moz-linear-gradient(top, #a33 0%, #a33 100%);background:-o-linear-gradient(top, #a33 0%, #a33 100%);background:-ms-linear-gradient(top, #a33 0%, #a33 100%);background:linear-gradient(top, #a33 0%, #a33 100%);}
+.no-cssgradients .js.no-touch .person .actions-container .unfollow.status-button:hover{background:#a33}
+.no-js .person .actions-container .status,.touch .person .actions-container .status{display:none}
+label.sort{position:absolute;right:.5em;top:1em;margin:0;font-size:90%;}
+label.sort select{-webkit-appearance:menulist;width:auto;height:auto;padding:0}
+label.sort input[type=submit]{font-weight:normal;height:1.5em;margin-left:.25em;padding:0 1em}
+.import.link-button{background:#66b8ff;background:-webkit-gradient(linear,left top,left bottom,from(#66b8ff),to(#269aff));background:-moz-linear-gradient(top,#66b8ff,#269aff);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #66b8ff), color-stop(1, #269aff));background:-webkit-linear-gradient(top, #66b8ff 0%, #269aff 100%);background:-moz-linear-gradient(top, #66b8ff 0%, #269aff 100%);background:-o-linear-gradient(top, #66b8ff 0%, #269aff 100%);background:-ms-linear-gradient(top, #66b8ff 0%, #269aff 100%);background:linear-gradient(top, #66b8ff 0%, #269aff 100%);border-color:#08c;color:#fff;text-shadow:0 -1px #005299;font-size:125%;padding-left:8px;padding-right:8px;margin:4px 0;width:450px;}
+.no-cssgradients .import.link-button{background:#269aff}
+.no-touch .import.link-button:hover{background:#00db00;background:-webkit-gradient(linear,left top,left bottom,from(#00db00),to(#00a800));background:-moz-linear-gradient(top,#00db00,#00a800);background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #00db00), color-stop(1, #00a800));background:-webkit-linear-gradient(top, #00db00 0%, #00a800 100%);background:-moz-linear-gradient(top, #00db00 0%, #00a800 100%);background:-o-linear-gradient(top, #00db00 0%, #00a800 100%);background:-ms-linear-gradient(top, #00db00 0%, #00a800 100%);background:linear-gradient(top, #00db00 0%, #00a800 100%);border-color:#009600}
+.no-cssgradients .no-touch .import.link-button:hover{background:#00a800}
+h2.category,.import h2{display:block;float:left;margin-right:.625em}
+a.show-all,a.back-to-people{color:#08c;display:block;font-weight:bold;position:relative;top:.66em;}
+a.show-all:hover,a.back-to-people:hover{color:#00a7fa;text-decoration:none}
+#find-your-friends .login-button{display:inline-block;vertical-align:middle}
+#facebook-login{margin-right:20px;}
+#facebook-login .fb_button_text{font-size:16px;font-weight:normal}
+#twitter-login{background-image:url("http://anywhere.platform.twitter.com/1.2.0/images/connect_236px.png");color:transparent;width:236px;height:38px;cursor:pointer;}
+#twitter-login:active{background-position:0 38px}
+#twitter-login:hover{background-position:0 76px}
