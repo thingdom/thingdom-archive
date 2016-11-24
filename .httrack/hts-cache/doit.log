@@ -1,0 +1,8 @@
+www.thethingdom.com -W -O "/Users/aseemk/Projects/Thingdom/thingdom-static/Thingdom" -%v
+File generated automatically on Thu, 24 Nov 2016 01:30:18, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

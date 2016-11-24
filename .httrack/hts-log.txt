@@ -1,0 +1,27 @@
+HTTrack3.48-21 launched on Thu, 24 Nov 2016 01:30:18 at www.thethingdom.com
+(winhttrack www.thethingdom.com -W -O "/Users/aseemk/Projects/Thingdom/thingdom-static/Thingdom" -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+01:30:19	Warning: 	Note: due to www.thethingdom.com remote robots.txt rules, links beginning with these path will be forbidden: /*, /frida$, /frida/ (see in the options to disable this)
+03:29:51	Error: 	"Not Found" (404) at link www.thethingdom.com/Jennifer (from www.thethingdom.com/128-Xbox-360-4GB-Console-with-Kinect)
+04:53:02	Error: 	"Not Found" (404) at link www.thethingdom.com/11622-The-Joker-Macbook-Decal-Mac-Apple-skin-sticker (from www.thethingdom.com/11604-Iron-Man-2-Macbook-Decal-Mac-Apple-skin-sticker)
+04:53:21	Error: 	"Not Found" (404) at link www.thethingdom.com/node.js (from www.thethingdom.com/5113-node-js)
+05:04:27	Error: 	"Not Found" (404) at link www.thethingdom.com/Sanjay (from www.thethingdom.com/202-Omega-Womens-1284-79-00-Constellation-Quadrella-18K-Gold-SS-Diamond-Bezel-Watch)
+05:29:20	Error: 	"Not Found" (404) at link www.thethingdom.com/MacbookAir (from www.thethingdom.com/9534)
+05:29:35	Error: 	"Not Found" (404) at link www.thethingdom.com/kpsin (from www.thethingdom.com/556-Vibram-Fivefingers-Classic-Black-M)
+05:34:24	Warning: 	Retry after error 500 (Internal Server Error) at link www.thethingdom.com/jenn/feed?since=1315866388049 (from www.thethingdom.com/jenn/feed?since=1316150144846)
+05:35:57	Warning: 	Retry after error 500 (Internal Server Error) at link www.thethingdom.com/jenn/feed?since=1315866388049 (from www.thethingdom.com/jenn/feed?since=1316150144846)
+05:36:00	Warning: 	Retry after error 500 (Internal Server Error) at link www.thethingdom.com/424f/feed?since=1312042366047 (from www.thethingdom.com/424f/feed?since=1313487673823)
+05:37:05	Error: 	"Internal Server Error" (500) after 2 retries at link www.thethingdom.com/jenn/feed?since=1315866388049 (from www.thethingdom.com/jenn/feed?since=1316150144846)
+05:37:05	Warning: 	Retry after error 500 (Internal Server Error) at link www.thethingdom.com/424f/feed?since=1312042366047 (from www.thethingdom.com/424f/feed?since=1313487673823)
+05:38:10	Error: 	"Internal Server Error" (500) after 2 retries at link www.thethingdom.com/424f/feed?since=1312042366047 (from www.thethingdom.com/424f/feed?since=1313487673823)
+05:51:37	Warning: 	Retry after error 500 (Internal Server Error) at link www.thethingdom.com/aseemk/feed?since=1314896425706 (from www.thethingdom.com/aseemk/feed?since=1315263790279)
+05:51:37	Warning: 	Retry after error 500 (Internal Server Error) at link www.thethingdom.com/aseemk/feed?since=1314896425706 (from www.thethingdom.com/aseemk/feed?since=1315263790279)
+05:51:37	Error: 	"Internal Server Error" (500) after 2 retries at link www.thethingdom.com/aseemk/feed?since=1314896425706 (from www.thethingdom.com/aseemk/feed?since=1315263790279)
+
+HTTrack Website Copier/3.48-21 mirror complete in 4 hours 21 minutes 19 seconds : 21753 links scanned, 21737 files written (359138717 bytes overall) [374923616 bytes received at 23912 bytes/sec], 89.9 requests per connection
+(9 errors, 7 warnings, 0 messages)

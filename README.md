@@ -40,4 +40,4 @@ Additional options (return=none) :
 ---> Wizard command line: httrack www.thethingdom.com -W -O "/Users/aseemk/Projects/Thingdom/thingdom-archive"  -%v
 ```
 
-The full HTTrack output and metadata can be found in the [`.httrack`](./.httrack) folder.
+The full HTTrack output and metadata can be found in the [`.httrack`](./.httrack) folder. (One exception: `hts-cache/new.zip` was excluded because it was over GitHub's [100 MB individual file size limit](https://help.github.com/articles/working-with-large-files/).)
